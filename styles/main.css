@@ -53,6 +53,7 @@ main {
   * {
     margin: 0px;
     padding: 0px;
+    font-family: "Rubik", sans-serif;
   }
   .header {
     background-color: #ffffff;
