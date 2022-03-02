@@ -22,11 +22,17 @@
   margin-bottom: 13px;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  height: fit-content;
 }
-
-.menu-container li {
-  list-style: none;
-  text-align: center;
+.menu-blog {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #4a4a4a;
+}
+.menu-contact {
+  text-decoration: none;
+  color: #4a4a4a;
 }
 
 main {
@@ -42,4 +48,6 @@ main {
 .center-text li {
   list-style: none;
   text-align: center;
+}
+@media all and (min-width: 780px) {
 }
