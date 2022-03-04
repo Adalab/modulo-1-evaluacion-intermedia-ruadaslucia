@@ -3,6 +3,11 @@
   padding: 0px;
   font-family: "Rubik", sans-serif;
 }
+:root {
+  --red: #cc212a;
+  --white: white;
+  --font: "Rubik", sans-serif;
+}
 
 .header {
   display: flex;
@@ -24,7 +29,16 @@
   flex-direction: row;
   justify-content: space-between;
   height: fit-content;
+  font-style: none;
 }
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-decoration: none;
+}
+
 .menu-blog {
   margin-right: 20px;
   text-decoration: none;
